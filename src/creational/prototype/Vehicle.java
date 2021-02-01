@@ -1,4 +1,4 @@
-package Prototype;
+package creational.prototype;
 
 public abstract class Vehicle {
     String color;

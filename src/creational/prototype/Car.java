@@ -1,4 +1,4 @@
-package Prototype;
+package creational.prototype;
 
 public class Car extends Vehicle {
     String name;

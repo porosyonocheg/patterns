@@ -1,4 +1,4 @@
-package FactoryMethod;
+package creational.factoryMethod;
 
 public class Pianist implements Musician {
     int number;

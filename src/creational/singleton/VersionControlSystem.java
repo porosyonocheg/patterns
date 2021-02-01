@@ -1,4 +1,4 @@
-package creational.singletone;
+package creational.singleton;
 
 public class VersionControlSystem {
     private static VersionControlSystem instance;

@@ -1,4 +1,4 @@
-package Decorator;
+package structural.decorator;
 
 public class Biscuit implements Pie {
     @Override

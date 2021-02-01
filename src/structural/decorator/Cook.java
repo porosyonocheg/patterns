@@ -1,4 +1,4 @@
-package Decorator;
+package structural.decorator;
 
 public class Cook {
     public static void main(String[] args) {

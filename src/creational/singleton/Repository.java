@@ -1,4 +1,4 @@
-package creational.singletone;
+package creational.singleton;
 
 public class Repository {
     public static void main(String[] args) {

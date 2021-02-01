@@ -1,4 +1,4 @@
-package Proxy;
+package structural.proxy;
 
 public class Client {
     private static final String country = "Russia";

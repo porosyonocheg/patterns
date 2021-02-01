@@ -1,8 +1,8 @@
-package AbstractFactory;
+package creational.abstractFactory;
 
-import AbstractFactory.bikeTeam.BikeTeamFactory;
-import AbstractFactory.driveTeam.DriveTeamFactory;
-import AbstractFactory.horseTeam.HorseTeamFactory;
+import creational.abstractFactory.bikeTeam.BikeTeamFactory;
+import creational.abstractFactory.driveTeam.DriveTeamFactory;
+import creational.abstractFactory.horseTeam.HorseTeamFactory;
 
 import java.util.ArrayList;
 import java.util.List;

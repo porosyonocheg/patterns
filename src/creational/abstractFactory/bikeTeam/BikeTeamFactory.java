@@ -1,9 +1,9 @@
-package AbstractFactory.bikeTeam;
+package creational.abstractFactory.bikeTeam;
 
-import AbstractFactory.RaceFactory;
-import AbstractFactory.Raceman;
-import AbstractFactory.TechnicalStuff;
-import AbstractFactory.Vehicle;
+import creational.abstractFactory.RaceFactory;
+import creational.abstractFactory.Raceman;
+import creational.abstractFactory.TechnicalStuff;
+import creational.abstractFactory.Vehicle;
 
 public class BikeTeamFactory implements RaceFactory {
     static int numberOfBikers = 0;

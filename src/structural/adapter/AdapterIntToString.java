@@ -1,4 +1,4 @@
-package Adapter;
+package structural.adapter;
 
 public class AdapterIntToString implements TextEditor {
     IntDataEditor intDataEditor = new IntDataEditor();

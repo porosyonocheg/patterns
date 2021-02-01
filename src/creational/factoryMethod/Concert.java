@@ -1,4 +1,4 @@
-package FactoryMethod;
+package creational.factoryMethod;
 
 import java.io.BufferedReader;
 import java.io.IOException;

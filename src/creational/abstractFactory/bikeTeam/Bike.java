@@ -1,6 +1,6 @@
-package AbstractFactory.bikeTeam;
+package creational.abstractFactory.bikeTeam;
 
-import AbstractFactory.Vehicle;
+import creational.abstractFactory.Vehicle;
 
 public class Bike implements Vehicle {
     String brand;

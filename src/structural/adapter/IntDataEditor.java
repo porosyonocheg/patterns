@@ -1,4 +1,4 @@
-package Adapter;
+package structural.adapter;
 
 public class IntDataEditor {
     int[] generateData() {
@@ -13,6 +13,7 @@ public class IntDataEditor {
         return result;
     }
     int[] removeData(int[] array, int index) {
+        if (array.length == 0) throw new IllegalStateException("I can't remove anything");
         int[] result = new int[array.length-1];
         int i = 0;
         for (;i < index; i++) {

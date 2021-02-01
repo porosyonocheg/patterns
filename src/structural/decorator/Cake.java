@@ -1,4 +1,4 @@
-package Decorator;
+package structural.decorator;
 
 public class Cake extends DecoratorPie  {
     Cake(Pie pie) {

@@ -1,7 +1,7 @@
-package AbstractFactory.bikeTeam;
+package creational.abstractFactory.bikeTeam;
 
-import AbstractFactory.Raceman;
-import AbstractFactory.Vehicle;
+import creational.abstractFactory.Raceman;
+import creational.abstractFactory.Vehicle;
 
 public class Cyclist implements Raceman {
 

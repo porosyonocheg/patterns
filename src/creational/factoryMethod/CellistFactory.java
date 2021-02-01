@@ -1,4 +1,4 @@
-package FactoryMethod;
+package creational.factoryMethod;
 
 public class CellistFactory implements MusicianFactory {
     static int numberOfCellists = 0;

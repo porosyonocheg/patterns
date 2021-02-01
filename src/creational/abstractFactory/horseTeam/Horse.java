@@ -1,6 +1,6 @@
-package AbstractFactory.horseTeam;
+package creational.abstractFactory.horseTeam;
 
-import AbstractFactory.Vehicle;
+import creational.abstractFactory.Vehicle;
 
 public class Horse implements Vehicle {
     String species;

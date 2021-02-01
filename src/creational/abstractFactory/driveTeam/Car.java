@@ -1,6 +1,6 @@
-package AbstractFactory.driveTeam;
+package creational.abstractFactory.driveTeam;
 
-import AbstractFactory.Vehicle;
+import creational.abstractFactory.Vehicle;
 
 public class Car implements Vehicle {
     String model;

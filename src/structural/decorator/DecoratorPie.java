@@ -1,4 +1,4 @@
-package Decorator;
+package structural.decorator;
 
 public class DecoratorPie implements Pie {
     Pie pie;

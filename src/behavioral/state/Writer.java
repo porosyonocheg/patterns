@@ -1,4 +1,11 @@
 package behavioral.state;
 
-public class Writer {
+public abstract class Writer {
+    protected Human human;
+
+    public Writer(Human human) {
+        this.human = human;
+    }
+
+    abstract void write();
 }

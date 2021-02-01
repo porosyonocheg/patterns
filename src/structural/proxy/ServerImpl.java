@@ -1,4 +1,4 @@
-package Proxy;
+package structural.proxy;
 
 public class ServerImpl implements Server {
 

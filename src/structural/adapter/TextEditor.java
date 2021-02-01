@@ -1,4 +1,4 @@
-package Adapter;
+package structural.adapter;
 
 public interface TextEditor {
     String receive();

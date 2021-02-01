@@ -1,6 +1,6 @@
-package AbstractFactory.horseTeam;
+package creational.abstractFactory.horseTeam;
 
-import AbstractFactory.TechnicalStuff;
+import creational.abstractFactory.TechnicalStuff;
 
 public class Stableman implements TechnicalStuff {
     @Override

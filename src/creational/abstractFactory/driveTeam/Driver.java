@@ -1,7 +1,7 @@
-package AbstractFactory.driveTeam;
+package creational.abstractFactory.driveTeam;
 
-import AbstractFactory.Raceman;
-import AbstractFactory.Vehicle;
+import creational.abstractFactory.Raceman;
+import creational.abstractFactory.Vehicle;
 
 public class Driver implements Raceman {
     int number;

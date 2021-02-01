@@ -1,6 +1,6 @@
-package AbstractFactory.bikeTeam;
+package creational.abstractFactory.bikeTeam;
 
-import AbstractFactory.TechnicalStuff;
+import creational.abstractFactory.TechnicalStuff;
 
 public class BicycleMechanic implements TechnicalStuff {
     @Override

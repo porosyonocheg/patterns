@@ -1,7 +1,7 @@
-package AbstractFactory.horseTeam;
+package creational.abstractFactory.horseTeam;
 
-import AbstractFactory.Raceman;
-import AbstractFactory.Vehicle;
+import creational.abstractFactory.Raceman;
+import creational.abstractFactory.Vehicle;
 
 public class Horseman implements Raceman {
     int number;

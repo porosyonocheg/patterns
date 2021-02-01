@@ -1,6 +1,6 @@
-package AbstractFactory.driveTeam;
+package creational.abstractFactory.driveTeam;
 
-import AbstractFactory.TechnicalStuff;
+import creational.abstractFactory.TechnicalStuff;
 
 public class AutoMechanic implements TechnicalStuff {
     @Override
