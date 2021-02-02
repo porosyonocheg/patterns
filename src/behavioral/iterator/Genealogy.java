@@ -3,6 +3,10 @@ package behavioral.iterator;
 import java.util.ArrayList;
 import java.util.List;
 
+/** Реализация паттерна Итератор в виде обхода модели генеалогического древа семейства
+ * @author Сергей Шершавин
+ */
+
 public class Genealogy {
     public static void main(String[] args) {
         List<Person> childrenOfIvan = new ArrayList<>();
@@ -33,7 +37,15 @@ public class Genealogy {
         FamilyTree familyTree = new FamilyTree(head);
         PersonIterator iterator = familyTree.getPersonIterator();
         while (iterator.hasNext()) {
-            System.out.print(iterator.next() + " -> ");
+            Person p = iterator.next();
+            System.out.print(p + " -> ");
+            if (p.children != null) {
+                for (int i = 0; i < p.children.size()-1; i++) {
+                    System.out.print(p.children.get(i) + "; ");
+                }
+                System.out.print(p.children.get(p.children.size()-1));
+            }
+            System.out.println();
         }
     }
 }
