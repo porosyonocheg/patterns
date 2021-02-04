@@ -3,9 +3,15 @@ package behavioral.mediator;
 import java.util.ArrayList;
 import java.util.List;
 
+/** Конкретная реализация банковской системы - российская банковская система.
+ * @author Сергей Шершавин*/
+
 public class RussianBankSystem implements BankSystem {
     private List<MoneyHolder> clients = new ArrayList<>();
     private final double commission = 0.02;
+
+/**Метод добавления клиентов в банковскую систему. Данная реализация не допускает добавление клиентов,
+ * использующих наличные средства {@link Cash}*/
 
     public void addClient(MoneyHolder moneyHolder) {
         if (moneyHolder instanceof Cash) {
@@ -14,6 +20,10 @@ public class RussianBankSystem implements BankSystem {
         }
         clients.add(moneyHolder);
     }
+
+/**Метод, осуществляющий пересылку денежных средств от одного держателя денежных средств к клиенту банковской системы
+ * Уведомляет о невозможности совершения операции в случае, когда получатель не является клиентом банковской системы,
+ * либо на счёте отправителя недостаточно денежных средств для перевода (достигнут лимит расхода средств)*/
 
     @Override
     public void sendMoney(int amount, MoneyHolder sender, int receiver) {
@@ -31,7 +41,7 @@ public class RussianBankSystem implements BankSystem {
         }
                 for (MoneyHolder mh : clients) {
                     if (mh.getId() == receiver) {
-                        if (sender instanceof DebitCard && mh instanceof CheckingAccount) {
+                        if (sender instanceof DebitCard && mh instanceof PaymentAccount) {
                             balance += amount * ((DebitCard) sender).getCashback() / 100.0;
                         }
                         sender.setAmount(balance);
