@@ -1,6 +1,15 @@
 package behavioral.observer;
 
+/** Реализация голосового подписчика событий на железнодорожной станции. Моделируется вывод голосового уведомления
+ * при получении информации со станции.
+ * @author Сергей Шершавин*/
+
 public class VoiceObserver implements Subscriber {
+
+    /**Принимает:
+     * @param time - время, оставшееся до прибытия поезда
+     * @param people - процент заполненности прибывающего состава
+     * @param theMostFreePlace - наиболее свободное место на платформе*/
 
     @Override
     public void getEvent(int time, int people, TheMostFreePlace theMostFreePlace) {
