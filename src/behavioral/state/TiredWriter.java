@@ -1,5 +1,8 @@
 package behavioral.state;
 
+/** Уставший писатель пишет текст, пропуская каждый 5-й символ, после чего напивается и переходит в состояние {@link DrunkWriter}
+ * @author Сергей Шершавин*/
+
 public class TiredWriter extends Writer {
 
     public TiredWriter(Human human) {

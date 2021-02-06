@@ -1,5 +1,8 @@
 package behavioral.state;
 
+/** Контекст существования состояний писателя - модель конкретного человека.
+ * @author Сергей Шершавин*/
+
 public class Human {
     private String name, text;
     private Writer writer;

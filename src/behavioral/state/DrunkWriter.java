@@ -1,5 +1,8 @@
 package behavioral.state;
 
+/** Пьяный писатель пишет текст задом наперёд, после чего ложиться спать, переходя в состояние {@link FreshWriter}
+ * @author Сергей Шершавин*/
+
 public class DrunkWriter extends Writer {
     public DrunkWriter(Human human) {
         super(human);

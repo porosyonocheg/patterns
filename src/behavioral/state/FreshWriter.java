@@ -1,5 +1,9 @@
 package behavioral.state;
 
+/** Свежий писатель внимателен к тому, что он пишет и знает после каких знаков припинания ставить заглавную букву, а
+ * также восстанавливает пробелы после знаков припинаний. По окончании работы начинает злиться, переходя в состояние {@link AngryWriter}
+ * @author Сергей Шершавин*/
+
 public class FreshWriter extends Writer {
     public FreshWriter(Human human) {
         super(human);

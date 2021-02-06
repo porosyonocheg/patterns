@@ -1,5 +1,8 @@
 package behavioral.state;
 
+/** Злой писатель пишет весь текст заглавными буквами, после чего становится усталым, перейдя в состояние {@link TiredWriter}
+ * @author Сергей Шершавин*/
+
 public class AngryWriter extends Writer {
     public AngryWriter(Human human) {
         super(human);
