@@ -1,5 +1,6 @@
 package behavioral.strategy;
-
+/** Реализация паттерна стратегия. Устанавливаем "стратегию" поедания торта и исполняем её реализацию.
+ * @author Сергей Шершавин*/
 public class EatingApp {
     public static void main(String[] args) {
         Cake cake = new Cake();
