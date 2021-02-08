@@ -1,5 +1,8 @@
 package behavioral.templateMethod;
 
+/**Реализация распорядка дня в будни
+ * @author Сергей Шершавин*/
+
 public class Weekdays extends  Schedule {
     protected Weekdays() {
         super("7:00", "23:30");

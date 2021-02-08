@@ -1,5 +1,8 @@
 package behavioral.templateMethod;
 
+/** Реализация паттерна Шаблонный метод. Составление распорядка дня в зависимости от типа дня недели (будни, выходные, отпуск)
+ * @author Сергей Шершавин*/
+
 public class ScheduleDemo {
 
     public static void main(String[] args) {
@@ -11,8 +14,8 @@ public class ScheduleDemo {
         schedule = new Weekend();
         schedule.templateMethod();
         System.out.println("++++++++++++++++++++++++++++++++++++++");
-        System.out.println("Hurrah! It's holidays!");
-        schedule = new Holidays();
+        System.out.println("Finally on vacation!");
+        schedule = new Vacation();
         schedule.templateMethod();
     }
 }

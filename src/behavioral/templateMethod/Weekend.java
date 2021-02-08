@@ -1,5 +1,8 @@
 package behavioral.templateMethod;
 
+/**Реализация распорядка дня в выходные
+ * @author Сергей Шершавин*/
+
 public class Weekend extends Schedule {
     protected Weekend() {
         super("9:00", "01:30");

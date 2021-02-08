@@ -1,7 +1,10 @@
 package behavioral.templateMethod;
 
-public class Holidays extends Schedule {
-    protected Holidays() {
+/** Реализация распорядка дня в отпуске
+ * @author Сергей Шершавин*/
+
+public class Vacation extends Schedule {
+    protected Vacation() {
         super("в любое время :)", "любого времени :)");
     }
 
