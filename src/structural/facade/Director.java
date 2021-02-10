@@ -1,8 +1,12 @@
 package structural.facade;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+/**Модель режиссёра клипа
+ * @author Сергей Шершавин*/
 
 public class Director {
+
+    /**Моделирование съёмочного процесса клипа*/
+
     void makeClip(int money) {
         System.out.println("Начинаем съёмки! Тишина, камера, мотор!");
         try {

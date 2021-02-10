@@ -1,5 +1,8 @@
 package structural.facade;
 
+/** Модель монтажа клипа
+ * @author Сергей Шершавин*/
+
 public class Editing {
     void cut(int money) {
         System.out.println("Обрезаем, склеиваем видеоряд...");
