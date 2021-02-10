@@ -1,5 +1,8 @@
 package structural.decorator;
 
+/** Ореховый пирог - обёртка {@link Biscuit}, дополненная методом внедрения орехов в тесто mixNuts().
+ * @author Сергей Шершавин*/
+
 public class NutsPie extends DecoratorPie {
     NutsPie(Pie pie) {
         super(pie);

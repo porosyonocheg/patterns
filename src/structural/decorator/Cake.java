@@ -1,5 +1,8 @@
 package structural.decorator;
 
+/** Торт - обёртка для {@link NutsPie}, реализует дополнительный метод декорирования makeDecor().
+ * @author Сергей Шершавин*/
+
 public class Cake extends DecoratorPie  {
     Cake(Pie pie) {
         super(pie);

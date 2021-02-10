@@ -1,5 +1,8 @@
 package structural.decorator;
 
+/** Базовая реализация интерфейса. Бисквитный пирог.
+ * @author Сергей Шершавин*/
+
 public class Biscuit implements Pie {
     @Override
     public String bake() {
