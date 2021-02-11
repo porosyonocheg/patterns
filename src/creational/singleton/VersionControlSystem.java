@@ -1,5 +1,10 @@
 package creational.singleton;
 
+/** Система контроля версий содержит фабричный метод по созданию единственного экземпляра этого класса, который хранится
+ * в поле instance и возвращается после всякого повторного вызова фабричного метода клиентом. В поле version хранит
+ * номер текущей версии.
+ * @author Сергей Шершавин*/
+
 public class VersionControlSystem {
     private static VersionControlSystem instance;
     private String name;
@@ -20,10 +25,14 @@ public class VersionControlSystem {
         this.version = version;
     }
 
+    /**Сохранение текущей версии*/
+
     public void commit() {
         setVersion(++version);
         System.out.println("Successful сommit! Current version is " + version);
     }
+
+    /**Откат версии на предыдущую*/
 
     public void rollback() {
         setVersion(--version);
