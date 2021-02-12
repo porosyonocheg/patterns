@@ -1,12 +1,34 @@
 package creational.prototype;
 
+/** Конкретный прототип - легковой автомобиль.
+ * @author Сергей Шершавин*/
+
 public class Car extends Vehicle {
     String name;
     int trunkVolume;
+
+    /**Конструктор содержит дополнительные параметры в сравнение с базовым классом:
+     * @param name - название
+     * @param trunkVolume - объём багажника*/
+
     public Car(String color, Model model, int year, int weight, float engineVolume, int enginePower, boolean isAutomaticTransmission, boolean isLeftHandDrive, String name, int trunkVolume) {
-        super(color, model, year, weight, engineVolume, enginePower, isAutomaticTransmission, isLeftHandDrive);
+        super();
+        this.color = color;
+        this.model = model;
+        this.year = year;
+        this.weight = weight;
+        this.engineVolume = engineVolume;
+        this.enginePower = enginePower;
+        this.isAutomaticTransmission = isAutomaticTransmission;
+        this.isLeftHandDrive = isLeftHandDrive;
         this.name = name;
         this.trunkVolume = trunkVolume;
+    }
+
+    public Car(Car car) {
+        super(car);
+        this.name = car.name;
+        this.trunkVolume = car.trunkVolume;
     }
 
     @Override
@@ -27,6 +49,6 @@ public class Car extends Vehicle {
 
     @Override
     protected Vehicle clone() {
-        return new Car(color, model, year, weight, engineVolume, enginePower, isAutomaticTransmission, isLeftHandDrive, name, trunkVolume);
+        return new Car(this);
     }
 }
