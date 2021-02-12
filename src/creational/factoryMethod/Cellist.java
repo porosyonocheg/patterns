@@ -1,5 +1,9 @@
 package creational.factoryMethod;
 
+/** Модель виолончелиста. Содержит реализацию интерфейса {@link Musician} и
+ * поле number - для идентификации конкретного экземпляра.
+ * @author  Сергей Шершавин*/
+
 public class Cellist implements Musician {
     int number;
 

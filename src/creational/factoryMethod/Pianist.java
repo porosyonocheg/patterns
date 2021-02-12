@@ -1,5 +1,9 @@
 package creational.factoryMethod;
 
+/** Модель пианиста. Содержит реализацию интерфейса {@link Musician} и
+ * поле number - для идентификации конкретного экземпляра.
+ * @author  Сергей Шершавин*/
+
 public class Pianist implements Musician {
     int number;
 
