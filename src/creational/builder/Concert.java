@@ -3,6 +3,9 @@ package creational.builder;
 import java.util.ArrayList;
 import java.util.List;
 
+/** Реализация паттерна Строитель.
+ * @author Сергей Шершавин*/
+
 public class Concert {
     public static void main(String[] args) {
         List<Trombone> trombones = new ArrayList<>();

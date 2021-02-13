@@ -2,6 +2,9 @@ package creational.builder;
 
 import java.util.List;
 
+/** Модель оркестра, содержит в себе статический класс-строитель, занимающийся созданием шаблонных объектов класса Оркестр
+ * @author Сергей Шершавин*/
+
 public class Orchestra {
     private final List<Violin> violins;
     private final List<Cello> cellos;
@@ -72,6 +75,8 @@ public class Orchestra {
             return new Orchestra(this);
         }
     }
+
+
     private Orchestra (Builder builder) {
             violins = builder.violins;
             cellos = builder.cellos;
@@ -114,6 +119,8 @@ public class Orchestra {
         return current.append(saxophones.get(saxophones.size()-1)).toString();
     }
 }
+
+/**Модели объектов конкретных инструментов, из которых может состоять оркестр*/
 
 class Violin {
     static int number = 0;
