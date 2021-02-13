@@ -5,6 +5,9 @@ import creational.abstractFactory.Raceman;
 import creational.abstractFactory.TechnicalStuff;
 import creational.abstractFactory.Vehicle;
 
+/** Реализация фабрики создания команды для скачек
+ * @author Сергей Шершавин*/
+
 public class HorseTeamFactory implements RaceFactory {
     static int numberOfHorsmen = 0;
     @Override

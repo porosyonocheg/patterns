@@ -3,6 +3,9 @@ package creational.abstractFactory.horseTeam;
 import creational.abstractFactory.Raceman;
 import creational.abstractFactory.Vehicle;
 
+/** Модель всадника
+ * @author Сергей Шершавин*/
+
 public class Horseman implements Raceman {
     int number;
     Horseman(int number) {

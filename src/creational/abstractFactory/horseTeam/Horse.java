@@ -2,6 +2,9 @@ package creational.abstractFactory.horseTeam;
 
 import creational.abstractFactory.Vehicle;
 
+/** Модель лошади
+ * @author Сергей Шершавин*/
+
 public class Horse implements Vehicle {
     String species;
     Horse() {

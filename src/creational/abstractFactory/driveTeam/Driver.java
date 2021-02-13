@@ -3,6 +3,9 @@ package creational.abstractFactory.driveTeam;
 import creational.abstractFactory.Raceman;
 import creational.abstractFactory.Vehicle;
 
+/** Модель автогонщика
+ * @author Сергей Шершавин*/
+
 public class Driver implements Raceman {
     int number;
 

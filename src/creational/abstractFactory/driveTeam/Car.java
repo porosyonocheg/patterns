@@ -2,6 +2,9 @@ package creational.abstractFactory.driveTeam;
 
 import creational.abstractFactory.Vehicle;
 
+/** Модель гоночного автомобиля
+ * @author Сергей Шершавин*/
+
 public class Car implements Vehicle {
     String model;
     Car() {

@@ -2,6 +2,9 @@ package creational.abstractFactory.bikeTeam;
 
 import creational.abstractFactory.Vehicle;
 
+/** Модель велосипеда
+ * @author Сергей Шершавин*/
+
 public class Bike implements Vehicle {
     String brand;
     Bike() {

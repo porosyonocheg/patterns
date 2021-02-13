@@ -3,6 +3,9 @@ package creational.abstractFactory.bikeTeam;
 import creational.abstractFactory.Raceman;
 import creational.abstractFactory.Vehicle;
 
+/** Модель велосипедиста
+ * @author Сергей Шершавин*/
+
 public class Cyclist implements Raceman {
 
     int number;

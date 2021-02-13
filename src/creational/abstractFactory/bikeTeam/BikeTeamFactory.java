@@ -5,6 +5,9 @@ import creational.abstractFactory.Raceman;
 import creational.abstractFactory.TechnicalStuff;
 import creational.abstractFactory.Vehicle;
 
+/** Модель фабрики создания велогоночной команды
+ * @author Сергей Шершавин*/
+
 public class BikeTeamFactory implements RaceFactory {
     static int numberOfBikers = 0;
     @Override
